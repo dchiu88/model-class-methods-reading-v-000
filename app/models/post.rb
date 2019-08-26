@@ -6,7 +6,7 @@ class Post < ActiveRecord::Base
 
   def self.by_author(author_id)
   where(author: author_id)
-end
+  end
 
   private
 
